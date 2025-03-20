@@ -155,6 +155,4 @@ e_trade_gym = StockTradingEnv(df = trade, **env_kwargs)
 df_account_value, df_actions = DRLAgent.DRL_prediction(model=trained_ddpg,
                        environment = e_trade_gym)
 
-df_actions.to_csv("action.csv",index=False)
 
-print(trade['time'])
