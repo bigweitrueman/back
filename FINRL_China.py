@@ -158,3 +158,7 @@ df_account_value, df_actions = DRLAgent.DRL_prediction(model=trained_ddpg,
 df_actions.to_csv("action.csv",index=False)
 
 print(trade['time'])
+# %matplotlib inline
+plotter = ReturnPlotter(df_account_value, trade, val_start_date, val_stop_date)
+# plotter.plot_all()
+plotter.plot()
