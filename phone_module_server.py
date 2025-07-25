@@ -195,7 +195,7 @@ class MockASRDriver(ASRDriver):
         from asr import speech_recognizer
         from common import credential
 
-        APPID = 
+        APPID = "1370866869"
         SECRET_ID = 
         SECRET_KEY = 
         ENGINE_MODEL_TYPE = "16k_zh"
