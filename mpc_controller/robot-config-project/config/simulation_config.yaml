@@ -1,0 +1,8 @@
+gravity: 
+  x: 0.0
+  y: 0.0
+  z: -9.81
+time_step: 0.01
+max_steps: 1000
+render: true
+log_file: "simulation_log.txt"
